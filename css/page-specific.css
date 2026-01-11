@@ -1,0 +1,17 @@
+/* Page-specific styles - Blue/Teal logo for subpages */
+body:not(.home-page) .nav-brand .logo-box {
+    background: var(--primary-color);
+}
+
+body:not(.home-page) .nav-brand .brand-name {
+    color: var(--primary-color);
+}
+
+/* Ensure home page keeps default styling */
+body.home-page .nav-brand .logo-box {
+    background: var(--primary-color);
+}
+
+body.home-page .nav-brand .brand-name {
+    color: var(--primary-color);
+}

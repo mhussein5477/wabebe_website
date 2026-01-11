@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Wabebe Fleet Management</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/page-specific.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="contact-page">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="../index.html" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+                    <div class="logo-box">W</div>
+                    <span class="brand-name">Wabebe</span>
+                </a>
+            </div>
+           <ul class="nav-menu">
+
+    <li><a href="../index.html">Home</a></li>
+
+    <!-- Product Dropdown -->
+    <li class="nav-dropdown">
+        <a href="#">Product <i class="fas fa-chevron-down"></i></a>
+        <ul class="dropdown-menu">
+            <li><a href="features.html">Features</a></li>
+            <li><a href="../index.html#solutions">Solutions</a></li>
+            <li><a href="../index.html#pricing">Pricing</a></li>
+        </ul>
+    </li>
+
+    <!-- Company Dropdown -->
+    <li class="nav-dropdown">
+        <a href="#">Company <i class="fas fa-chevron-down"></i></a>
+        <ul class="dropdown-menu">
+            <li><a href="about.html">About</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </li>
+
+    <li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+            <div class="nav-actions">
+                <a href="login.html" class="btn-outline">Sign In</a>
+                <a href="signup.html" class="btn-primary">Get Started</a>
+            </div>
+            <div class="mobile-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="contact-hero">
+        <div class="container">
+            <h1 class="page-title">Get In <span class="highlight">Touch</span></h1>
+            <p class="page-subtitle">Have questions? We're here to help you transform your fleet management</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-main">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Information -->
+                <div class="contact-info-section">
+                    <h2>Let's Talk</h2>
+                    <p>Whether you're a single vehicle owner or managing a large fleet, we're here to help you succeed.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Phone</h4>
+                                <p>+254 700 000 000</p>
+                                <small>Mon-Sat, 8AM-6PM EAT</small>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Email</h4>
+                                <p>info@wabebe.co.ke</p>
+                                <small>We'll respond within 24 hours</small>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>WhatsApp</h4>
+                                <p>+254 700 000 000</p>
+                                <small>Quick support via WhatsApp</small>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Office</h4>
+                                <p>Nairobi, Kenya</p>
+                                <small>Visit by appointment</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Links -->
+                    <div class="social-section">
+                        <h4>Follow Us</h4>
+                        <div class="social-links-grid">
+                            <a href="#" class="social-link-btn">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link-btn">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link-btn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link-btn">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Send Us a Message</h3>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" placeholder="+254 700 000 000" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="sales">Sales & Pricing</option>
+                                <option value="support">Technical Support</option>
+                                <option value="partnership">Partnership</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section">
+        <div class="map-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255282.35839297897!2d36.70730744863279!3d-1.302409479650517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi%2C%20Kenya!5e0!3m2!1sen!2sus!4v1704380000000!5m2!1sen!2sus" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <div class="map-overlay">
+            <div class="map-info">
+                <h3>Visit Our Office</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</p>
+                <p><i class="fas fa-clock"></i> Mon-Sat: 8:00 AM - 6:00 PM</p>
+                <a href="https://maps.google.com/?q=Nairobi,Kenya" target="_blank" class="btn-outline">
+                    <i class="fas fa-directions"></i> Get Directions
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Quick Links -->
+    <section class="faq-quick">
+        <div class="container">
+            <h2>Quick Answers</h2>
+            <div class="faq-grid">
+                <div class="faq-card">
+                    <i class="fas fa-question-circle"></i>
+                    <h4>How do I get started?</h4>
+                    <p>Sign up for a free trial, add your vehicles, and start tracking immediately.</p>
+                </div>
+                <div class="faq-card">
+                    <i class="fas fa-credit-card"></i>
+                    <h4>What are the costs?</h4>
+                    <p>Starting from KES 500/vehicle/month with no setup fees.</p>
+                </div>
+                <div class="faq-card">
+                    <i class="fas fa-headset"></i>
+                    <h4>Do you offer support?</h4>
+                    <p>Yes! Phone, WhatsApp, and email support available.</p>
+                </div>
+                <div class="faq-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h4>Is there a mobile app?</h4>
+                    <p>Yes, available for both iOS and Android devices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-brand">
+                        <div class="logo-box">W</div>
+                        <span>Wabebe</span>
+                    </div>
+                    <p>Where Every Trip Counts</p>
+                    <p class="tagline">Your fleet, on autopilot.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="features.html">Features</a></li>
+                        <li><a href="../index.html#pricing">Pricing</a></li>
+                        <li><a href="signup.html">Sign Up</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="team.html">Team</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Wabebe Limited. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/contact.js"></script>
+</body>
+</html>

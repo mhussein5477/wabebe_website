@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Wabebe Fleet Management</title>
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="dashboard-nav">
+        <div class="nav-left">
+            <div class="logo-section">
+                <div class="logo-box">W</div>
+                <span class="brand-name">Wabebe</span>
+            </div>
+        </div>
+        <div class="nav-right">
+            <button class="notification-btn">
+                <i class="fas fa-bell"></i>
+                <span class="badge">2</span>
+            </button>
+            <div class="user-menu">
+                <div class="user-avatar">MA</div>
+                <span>Mohammed Ahmed</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <ul class="sidebar-menu">
+                <li class="active">
+                    <i class="fas fa-home"></i>
+                    <span>Home</span>
+                </li>
+                <li>
+                    <i class="fas fa-truck"></i>
+                    <span>Fleet</span>
+                </li>
+                <li>
+                    <i class="fas fa-clock"></i>
+                    <span>Shift</span>
+                </li>
+                <li>
+                    <i class="fas fa-bars"></i>
+                    <span>More</span>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="greeting-section">
+                <h1>Hi Mohammed!</h1>
+            </div>
+
+            <!-- Stats Cards -->
+            <div class="stats-grid">
+                <div class="stat-card clickable">
+                    <div class="stat-header">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                    <div class="stat-body">
+                        <p class="stat-label">Today trips</p>
+                        <h2 class="stat-value">2,008</h2>
+                    </div>
+                </div>
+
+                <div class="stat-card clickable">
+                    <div class="stat-header">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                    <div class="stat-body">
+                        <p class="stat-label">Incidents</p>
+                        <h2 class="stat-value">2</h2>
+                    </div>
+                </div>
+
+                <div class="stat-card clickable">
+                    <div class="stat-header">
+                        <i class="fas fa-truck"></i>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                    <div class="stat-body">
+                        <p class="stat-label">Active fleet</p>
+                        <h2 class="stat-value">2 <span class="stat-suffix">of 5</span></h2>
+                    </div>
+                </div>
+
+                <div class="stat-card clickable">
+                    <div class="stat-header">
+                        <i class="fas fa-dollar-sign"></i>
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                    <div class="stat-body">
+                        <p class="stat-label">Today collections</p>
+                        <h2 class="stat-value">130,000</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Filter Tabs -->
+            <div class="filter-tabs">
+                <button class="tab-btn active">Today trips</button>
+                <button class="tab-btn">Summaries</button>
+                <button class="tab-btn">Incidents</button>
+            </div>
+
+            <!-- Today Section -->
+            <div class="section-header">
+                <h3>Today</h3>
+                <span class="trip-count">2 Trips</span>
+            </div>
+
+            <!-- Trip Cards -->
+            <div class="trips-container">
+                <div class="trip-card active">
+                    <div class="trip-status">
+                        <span class="status-badge ongoing">Trip Ongoing</span>
+                    </div>
+                    <div class="trip-info">
+                        <h4 class="trip-route">South C → CBD Town</h4>
+                        <div class="trip-details">
+                            <div class="detail-item">
+                                <i class="fas fa-truck"></i>
+                                <span>KDB 1233R Kamau</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>7:00 pm - 8:24 pm</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="trip-menu-btn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </div>
+
+                <div class="trip-card">
+                    <div class="trip-status">
+                        <span class="status-badge completed">Completed</span>
+                    </div>
+                    <div class="trip-info">
+                        <h4 class="trip-route">Westlands → South C</h4>
+                        <div class="trip-details">
+                            <div class="detail-item">
+                                <i class="fas fa-truck"></i>
+                                <span>KDB 1233R Kamau</span>
+                            </div>
+                            <div class="detail-item">
+                                <i class="fas fa-clock"></i>
+                                <span>5:30 pm - 6:45 pm</span>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="trip-menu-btn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Add Button -->
+            <button class="fab-btn">
+                <i class="fas fa-plus"></i>
+                <span>Add</span>
+            </button>
+        </main>
+    </div>
+
+    <script src="../js/dashboard.js"></script>
+</body>
+</html>

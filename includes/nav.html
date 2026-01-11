@@ -1,0 +1,27 @@
+<!-- Unified Navigation Component -->
+<nav class="navbar">
+    <div class="container">
+        <div class="nav-brand">
+            <a href="{{homeLink}}" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+                <div class="logo-box">W</div>
+                <span class="brand-name">Wabebe</span>
+            </a>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="{{homeLink}}" class="{{homeActive}}">Home</a></li>
+            <li><a href="{{featuresLink}}" class="{{featuresActive}}">Features</a></li>
+            <li><a href="{{solutionsLink}}" class="{{solutionsActive}}">Solutions</a></li>
+            <li><a href="{{pricingLink}}" class="{{pricingActive}}">Pricing</a></li>
+            <li><a href="{{aboutLink}}" class="{{aboutActive}}">About</a></li>
+            <li><a href="{{blogLink}}" class="{{blogActive}}">Blog</a></li>
+            <li><a href="{{contactLink}}" class="{{contactActive}}">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <a href="{{loginLink}}" class="btn-outline">Sign In</a>
+            <a href="{{signupLink}}" class="btn-primary">Get Started</a>
+        </div>
+        <div class="mobile-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</nav>
